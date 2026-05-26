@@ -28,5 +28,36 @@ const myfunction = function(){
 console.log(typeof heros);
 
 
+//**************************************************************************************//
+
+//Memory allocation and types
+
+// Stack(Primitive), Heap(Non Primitive)
+
+
+let myYoutubename = "Anyname"
+let anothername = myYoutubename
+
+console.log(anothername)
+
+let userOne={
+
+    email: "anyemail.com",
+    upi: "user@ybl",
+}
+
+let userTwo= userOne
+
+userTwo.email = "Myemail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
 
 
