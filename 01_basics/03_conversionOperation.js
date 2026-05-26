@@ -18,3 +18,8 @@ let UserisLoggedIn =""
 let booleanUserisLoggedIn= Boolean(UserisLoggedIn)
 console.log(typeof booleanUserisLoggedIn)
 console.log(booleanUserisLoggedIn)
+// ""=> false; value=true
+let someNumber=33
+let stringNumber= String(someNumber)
+console.log(typeof stringNumber)
+console.log(stringNumber)
