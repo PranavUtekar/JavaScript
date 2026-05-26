@@ -23,3 +23,18 @@ let someNumber=33
 let stringNumber= String(someNumber)
 console.log(typeof stringNumber)
 console.log(stringNumber)
+
+
+//*******************************Operation********************************************* *//
+
+
+let value =3;
+let negvalue= -value
+console.log(negvalue)
+
+let str1 = "hello"
+let str2 = "World"
+let str3= str1+str2
+console.log(str3)
+
+
