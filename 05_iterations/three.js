@@ -41,3 +41,4 @@
 //     console.log(key, ":-", value);
     
 // }
+// object is not iteratable in for of loop
