@@ -24,10 +24,20 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let userBooks = books.filter( (bk)=> bk.genre==='Non-Fiction' )
-    userBooks = books.filter( (bk)=> { 
-    return bk.publish>=1999 && bk.genre==='Science'
-} )
+//   let userBooks = books.filter( (bk)=> bk.genre==='Non-Fiction' )
+//     userBooks = books.filter( (bk)=> { 
+//     return bk.publish>=1999 && bk.genre==='Science'
+// } )
 
-  console.log(userBooks);
+//   console.log(userBooks);
+
+// const userbk = books.filter( (book)=>(book.genre=== "History") )
+const userbk = books.filter( (book)=>(book.publish>2000) )
+console.log(userbk);
+
+
+
+
+// console.log(books)
+
   
