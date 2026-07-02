@@ -32,7 +32,8 @@ const books = [
 //   console.log(userBooks);
 
 // const userbk = books.filter( (book)=>(book.genre=== "History") )
-const userbk = books.filter( (book)=>(book.publish>2000) )
+// const userbk = books.filter( (book)=>(book.publish>2000) )
+const userbk = books.filter( (book)=>(book.genre==='Non-Fiction'&& book.publish>1985) )
 console.log(userbk);
 
 
